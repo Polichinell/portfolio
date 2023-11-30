@@ -16,7 +16,14 @@
   }
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  
+  background-color: rgb(230, 215, 176);
 }
