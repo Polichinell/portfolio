@@ -3,6 +3,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { useState } from 'react';
+import Skillhex from '@/components/Skillhex';
 
 const Home = () => {
 
@@ -67,8 +68,11 @@ const Home = () => {
 
 
       <section className={styles.skills}>
-        <h2>Skills</h2>
-        <div className={styles.skillList}>
+        <h2 className='text-5xl text-amber-700 my-[2rem]'>Skills</h2>
+      
+      <Skillhex />
+     
+       { /* <div className={styles.skillList}>
           <div>HTML</div>
           <div>CSS</div>
           <div>JavaScript</div>
@@ -78,7 +82,8 @@ const Home = () => {
           <div>Tailwind CSS</div>
           <div>Material-UI</div>
           <div>Photoshop</div>
-        </div>
+  </div> */}
+
       </section>
 
    
