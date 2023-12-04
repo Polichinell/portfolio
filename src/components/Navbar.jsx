@@ -43,7 +43,7 @@ function Navbar() {
 
           <Link href={`#projects`}>
             <div className={styles.menuItems}>
-              <div className="mx-auto my-auto">Project</div>
+              <div className="mx-auto my-auto">Projects</div>
             </div>
           </Link>
 
