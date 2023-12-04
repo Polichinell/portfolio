@@ -1,107 +1,104 @@
 .container {
-    margin-right: 150px;
-    background-color: #1572B6;
+  margin-right: 150px;
+  background-color: #1572b6;
 }
 
-
 .root {
-    /* Change this to change the appearance of the hexaons */
-    --hex-width: 120px; 
-    --hex-between: 10px;
-    
-    /* Other hexagon dimentions */
-    --hex-height: calc(var(--hex-width) / 1.73 /* sqrt(3) */);
-    --hex-margin: calc(120px / 2);
-    --hex-border: calc(var(--hex-margin) / 1.73 /* sqrt(3) */);
-    --hex-transition: all .2s ease;
-    
-    /* Colors */
-    --color-hex-default: #d68239;
-    --color-hex-hover:   #b45a5a;
-    --color-angular:     #DD0031;
-    --color-atom:        #666059;
-    --color-bootstrap:   #563D7C;
-    --color-circleci:    #343434;
-    --color-css:         #1572B6;
-    --color-git:         #F14E32;
-    --color-gulp:        #DA4648;
-    --color-haskell:     #5D4F85;
-    --color-html:        #E34F26;
-    --color-javascript:  #F7DF1E;
-    --color-meteor:      #DE4F4F;
-    --color-python:      #3776AB;
-    --color-rails:       #CC0000;
-    --color-sass:        #CC6699;
-    --color-vuejs:       #4FC08D;
-    --color-webpack:     #8DD6F9;
-  }
-  
-  /* Hexagons */
+  /* Change this to change the appearance of the hexaons */
+  --hex-width: 120px;
+  --hex-between: 10px;
+
+  /* Other hexagon dimentions */
+  --hex-height: calc(var(--hex-width) / 1.73 /* sqrt(3) */);
+  --hex-margin: calc(120px / 2);
+  --hex-border: calc(var(--hex-margin) / 1.73 /* sqrt(3) */);
+  --hex-transition: all 0.2s ease;
+
+  /* Colors */
+  --color-hex-default: #d68239;
+  --color-hex-hover: #b45a5a;
+  --color-angular: #dd0031;
+  --color-atom: #666059;
+  --color-bootstrap: #563d7c;
+  --color-circleci: #343434;
+  --color-css: #1572b6;
+  --color-git: #f14e32;
+  --color-gulp: #da4648;
+  --color-haskell: #5d4f85;
+  --color-html: #e34f26;
+  --color-javascript: #f7df1e;
+  --color-meteor: #de4f4f;
+  --color-python: #3776ab;
+  --color-rails: #cc0000;
+  --color-sass: #cc6699;
+  --color-vuejs: #4fc08d;
+  --color-webpack: #8dd6f9;
+}
+
+/* Hexagons */
+.hexagonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0;
+  padding-bottom: calc(60 / 1.73 /* sqrt(3) */);
+}
+
+@media (min-width: 1200px) {
   .hexagonContainer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 0;
-    padding-bottom: calc(60 / 1.73 /* sqrt(3) */);
+    transform: translateX(-180px);
   }
 
-  @media (min-width: 1200px) {
-    .hexagonContainer {
-        transform: translateX(-180px);
-    }
-
-    .hexagon:nth-child(8n + 5),
+  .hexagon:nth-child(8n + 5),
   .hexagon:nth-child(8n + 6),
   .hexagon:nth-child(8n + 7),
   .hexagon:nth-child(8n + 8) {
     margin-left: 150px;
   }
+}
+
+@media (min-width: 400px) and (max-width: 1200px) {
+  .hexagonContainer {
+    transform: translateX(20px);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
   }
 
-  @media (min-width: 400px) and (max-width: 1200px){
-    .hexagonContainer {
-        transform: translateX(20px);
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 0;
-    }
+  .hexagon:nth-child(8n + 3),
+  .hexagon:nth-child(8n + 4),
+  .hexagon:nth-child(8n + 7),
+  .hexagon:nth-child(8n + 8) {
+    margin-left: 175px;
+  }
+}
 
-    .hexagon:nth-child(8n + 3),
-    .hexagon:nth-child(8n + 4),
-    .hexagon:nth-child(8n + 7),
-    .hexagon:nth-child(8n + 8) {
-      margin-left: 175px;
-    }
-    
-  }
+.hexagon {
+  align-items: center;
+  background-color: #d68239;
+  cursor: pointer;
+  display: flex;
+  fill: white;
+  height: 135px;
+  justify-content: center;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  position: relative;
+  transition: all 0.2s ease;
+  width: 150px;
+}
 
-  .hexagon {
-    align-items: center;
-    background-color: #d68239;
-    cursor: pointer;
-    display: flex;
-    fill: white;
-    height: 135px;
-    justify-content: center;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    position: relative;
-    transition: all .2s ease;
-    width: 150px;
-  }
-    
-  .hexagon:hover {
-    background-color: #c54933;
-  }
-   
-  
-  .hexagon > svg {
-    height: 75%;
-    transition: var(--hex-transition);
-  }
-  
-  /* Colors */
-  .colorHexa {
-    background-color: #d68239;
-  }
-  
-  .colorHexa:hover {
-    fill: #fFFFFF;
-  }
+.hexagon:hover {
+  background-color: #c54933;
+}
+
+.hexagon > svg {
+  height: 75%;
+  transition: var(--hex-transition);
+}
+
+/* Colors */
+.colorHexa {
+  background-color: #d68239;
+}
+
+.colorHexa:hover {
+  fill: #ffffff;
+}
