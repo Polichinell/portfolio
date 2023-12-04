@@ -1,12 +1,12 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import { useState } from "react";
-import Skillhex from "@/components/Skillhex";
-import Planets from "@/components/Planets";
-import Navbar from "@/components/Navbar";
+import Head from "next/head"
+import styles from "../styles/Home.module.css"
+import { useState } from "react"
+import Skillhex from "@/components/Skillhex"
+import Planets from "@/components/Planets"
+import Navbar from "@/components/Navbar"
 
 const Home = () => {
-  const projectArr = ["Project 1", "Project 2", "Project 3"];
+  const projectArr = ["Project 1", "Project 2", "Project 3"]
 
   return (
     <div className={styles.container}>
@@ -66,9 +66,10 @@ const Home = () => {
           <p className="p-8">
             Le lorem ipsum est, en imprimerie, une suite de mots sans
             signification utilisée à titre provisoire pour calibrer une mise en
-            page, le texte définitif venant remplacer le faux-texte dès qu'il
-            est prêt ou que la mise en page est achevée. Généralement, on
-            utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+            page, le texte définitif venant remplacer le faux-texte dès
+            qu&apos;il est prêt ou que la mise en page est achevée.
+            Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
+            Lipsum
           </p>{" "}
         </div>
 
@@ -79,9 +80,10 @@ const Home = () => {
           <p className="p-8">
             Le lorem ipsum est, en imprimerie, une suite de mots sans
             signification utilisée à titre provisoire pour calibrer une mise en
-            page, le texte définitif venant remplacer le faux-texte dès qu'il
-            est prêt ou que la mise en page est achevée. Généralement, on
-            utilise un texte en faux latin, le Lorem ipsum ou Lipsum
+            page, le texte définitif venant remplacer le faux-texte dès
+            qu&apos;il est prêt ou que la mise en page est achevée.
+            Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
+            Lipsum
           </p>
         </div>
       </div>
@@ -98,7 +100,10 @@ const Home = () => {
         </h1>
         <div className="grid grid-cols-2 gap-y-4 gap-x-[4rem] justify-center justify-items-center">
           {projectArr.map((project) => (
-            <div className="card card-compact w-96 rounded-xl bg-base-100 shadow-md">
+            <div
+              key={project.indexOf}
+              className="card card-compact w-96 rounded-xl bg-base-100 shadow-md"
+            >
               <figure>
                 <img src="https://i.imgur.com/1nayVcZ.png" alt="Shoes" />
               </figure>
@@ -180,7 +185,7 @@ const Home = () => {
         <p>&copy; 2023 Fooooooooooooooooooooooter</p>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

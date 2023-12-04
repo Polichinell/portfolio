@@ -1,16 +1,16 @@
-import React from "react";
-import { useState } from "react";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
+import React from "react"
+import { useState } from "react"
+import styles from "../styles/Home.module.css"
+import Link from "next/link"
 
 function Navbar() {
-  const [menuVisible, setMenuVisible] = useState(false);
-  const [rotation, setRotation] = useState(0);
+  const [menuVisible, setMenuVisible] = useState(false)
+  const [rotation, setRotation] = useState(0)
 
   const toggleMenu = () => {
-    setMenuVisible(!menuVisible);
-    setRotation(rotation + 45);
-  };
+    setMenuVisible(!menuVisible)
+    setRotation(rotation + 45)
+  }
 
   return (
     <nav
@@ -43,7 +43,7 @@ function Navbar() {
 
           <Link href={`#projects`}>
             <div className={styles.menuItems}>
-              <div className="mx-auto my-auto">Project</div>
+              <div className="mx-auto my-auto">Projects</div>
             </div>
           </Link>
 
@@ -55,7 +55,7 @@ function Navbar() {
         </div>
       </div>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

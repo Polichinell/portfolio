@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "../styles/Skillhex.module.css";
+import React from "react"
+import styles from "../styles/Skillhex.module.css"
 
 function Skillhex() {
   return (
@@ -119,7 +119,7 @@ function Skillhex() {
         </div>
       </main>
     </div>
-  );
+  )
 }
 
-export default Skillhex;
+export default Skillhex

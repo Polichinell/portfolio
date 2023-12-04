@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function Planets() {
   return (
@@ -199,7 +199,7 @@ function Planets() {
         ></path>
       </g>
     </svg>
-  );
+  )
 }
 
-export default Planets;
+export default Planets

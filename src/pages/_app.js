@@ -1,5 +1,5 @@
-import "@/styles/globals.css";
-import Navbar from "@/components/Navbar";
+import "@/styles/globals.css"
+import Navbar from "@/components/Navbar"
 
 export default function App({ Component, pageProps }) {
   return (
@@ -9,5 +9,5 @@ export default function App({ Component, pageProps }) {
       </div>
       <Component {...pageProps} className="z-10" />
     </div>
-  );
+  )
 }
