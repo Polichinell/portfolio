@@ -3,39 +3,6 @@
   background-color: #1572b6;
 }
 
-.root {
-  /* Change this to change the appearance of the hexaons */
-  --hex-width: 120px;
-  --hex-between: 10px;
-
-  /* Other hexagon dimentions */
-  --hex-height: calc(var(--hex-width) / 1.73 /* sqrt(3) */);
-  --hex-margin: calc(120px / 2);
-  --hex-border: calc(var(--hex-margin) / 1.73 /* sqrt(3) */);
-  --hex-transition: all 0.2s ease;
-
-  /* Colors */
-  --color-hex-default: #d68239;
-  --color-hex-hover: #b45a5a;
-  --color-angular: #dd0031;
-  --color-atom: #666059;
-  --color-bootstrap: #563d7c;
-  --color-circleci: #343434;
-  --color-css: #1572b6;
-  --color-git: #f14e32;
-  --color-gulp: #da4648;
-  --color-haskell: #5d4f85;
-  --color-html: #e34f26;
-  --color-javascript: #f7df1e;
-  --color-meteor: #de4f4f;
-  --color-python: #3776ab;
-  --color-rails: #cc0000;
-  --color-sass: #cc6699;
-  --color-vuejs: #4fc08d;
-  --color-webpack: #8dd6f9;
-}
-
-/* Hexagons */
 .hexagonContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -73,7 +40,7 @@
 
 .hexagon {
   align-items: center;
-  background-color: #d68239;
+  background-color: #d4a9a6;
   cursor: pointer;
   display: flex;
   fill: white;
@@ -86,19 +53,16 @@
 }
 
 .hexagon:hover {
-  background-color: #c54933;
+  background-color: #ae5770;
 }
 
+.null {
+  cursor: default;
+}
+.null:hover {
+  background-color: #d4a9a6;
+}
 .hexagon > svg {
   height: 75%;
   transition: var(--hex-transition);
-}
-
-/* Colors */
-.colorHexa {
-  background-color: #d68239;
-}
-
-.colorHexa:hover {
-  fill: #ffffff;
 }

@@ -4,6 +4,7 @@ import { useState } from "react"
 import Skillhex from "@/components/Skillhex"
 import Planets from "@/components/Planets"
 import Navbar from "@/components/Navbar"
+import Flowers from "@/components/Flowers"
 
 const Home = () => {
   const projectArr = ["Project 1", "Project 2", "Project 3"]
@@ -11,26 +12,26 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Polichinell, web artist♪</title>
+        <title>Polichinell | web artist♪</title>
         <meta name="description" content="Developer Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icons-96.png" />
       </Head>
 
       {/* Hero Section */}
 
       <section className="hero w-max">
-        <div className="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-              Welcome (:
+        <div className="grid max-w-screen-lg py-8 mx-auto lg:gap-6 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="mr-auto place-self-center lg:col-span-6">
+            <h1 className="text-[#905E53] max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+              Welcome ✿
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               Small and cute intro goes here, front end developpment toussa. And
               some more text goes here, front end developpment toussa.
             </p>
             <a
-              href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-[#CA8652] rounded-lg bg-amber-800 hover:text-amber-900 hover:bg-amber-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              href="#contact"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-slate-50 rounded-lg bg-[#CEC79B]  hover:bg-[#a8a06c] hover:bg-opacity-80 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Get in touch
               <svg
@@ -47,14 +48,14 @@ const Home = () => {
               </svg>
             </a>
           </div>
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <Planets />
+          <div className="lg:mt-0 lg:col-span-6 lg:flex">
+            <Flowers />
             {/*  <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup" /> */}
           </div>
         </div>
       </section>
 
-      <h1 id="about" className="text-center text-6xl text-amber-700">
+      <h1 id="about" className="text-center text-6xl text-[#AE5770]">
         Titre
       </h1>
 
@@ -89,13 +90,13 @@ const Home = () => {
       </div>
 
       <section className={`${styles.skills} my-[7rem]`}>
-        <h2 className="text-5xl text-amber-700 my-[2rem]">Skills</h2>
+        <h2 className="text-5xl text-[#AE5770] my-[2rem]">Skills</h2>
 
         <Skillhex className="z-8" />
       </section>
 
       <section id="projects" className={styles.projects}>
-        <h1 className="text-center text-5xl my-[5rem] text-amber-700">
+        <h1 className="text-center text-5xl my-[5rem] text-[#AE5770]">
           Projects
         </h1>
         <div className="grid grid-cols-2 gap-y-4 gap-x-[4rem] justify-center justify-items-center">
@@ -105,13 +106,15 @@ const Home = () => {
               className="card card-compact w-96 rounded-xl bg-base-100 shadow-md"
             >
               <figure>
-                <img src="https://i.imgur.com/1nayVcZ.png" alt="Shoes" />
+                <img src="https://i.imgur.com/bv38pJz.png" alt={project} />
+
+                {/*<img src="https://i.imgur.com/1nayVcZ.png" alt="Shoes" /> */}
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{project}</h2>
                 <p>Description description description</p>
                 <div className="card-actions justify-center">
-                  <button className="btn bg-amber-300 text-slate-50 hover:bg-amber-600">
+                  <button className="btn bg-[#CEC79B] text-slate-50 hover:bg-[#a8a06c]">
                     Check it out
                   </button>
                 </div>
@@ -122,11 +125,11 @@ const Home = () => {
       </section>
 
       <section id="contact" className={styles.contact}>
-        <h1 className="text-center text-5xl mt-[5rem] text-amber-700">
+        <h1 className="text-center text-5xl my-[5rem] text-[#AE5770]">
           Contact
         </h1>
 
-        <form className="form">
+        <form className="formulaire pl-[6rem]">
           <div className="flex flex-row gap-4">
             <label className="form-control w-full max-w-xs">
               <div className="label">
@@ -175,15 +178,14 @@ const Home = () => {
             ></textarea>
           </label>
 
-          <button type="submit" className="flex btn mt-5">
+          <button
+            type="submit"
+            className="flex btn mt-5 bg-[#CEC79B] text-slate-50 hover:bg-[#a8a06c]"
+          >
             Submit
           </button>
         </form>
       </section>
-
-      <footer className="bg-amber-700 text-center text-white mt-[40px] py-[20px]">
-        <p>&copy; 2023 Fooooooooooooooooooooooter</p>
-      </footer>
     </div>
   )
 }
