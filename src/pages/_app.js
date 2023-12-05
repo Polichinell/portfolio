@@ -15,9 +15,8 @@ export default function App({ Component, pageProps }) {
       <div className="relative z-30">
         <Component {...pageProps} />
       </div>
-      <div className="mt-[7rem]">
-        <Footer />
-      </div>
+
+      <Footer />
     </div>
   )
 }
