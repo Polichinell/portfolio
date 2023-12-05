@@ -2,9 +2,10 @@ import Head from "next/head"
 import styles from "../styles/Home.module.css"
 import { useState } from "react"
 import Skillhex from "@/components/Skillhex"
-import Planets from "@/components/Planets"
+import Planets from "@/components/svg/Planets"
 import Navbar from "@/components/Navbar"
-import Flowers from "@/components/Flowers"
+import Flowers from "@/components/svg/Flowers"
+import Blob from "@/components/svg/Blob"
 
 const Home = () => {
   const projectArr = ["Project 1", "Project 2", "Project 3"]
