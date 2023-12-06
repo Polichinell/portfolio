@@ -1,7 +1,7 @@
 import React from "react"
-
+import Projects from "@/components/Projects"
 function Contact() {
-  return <div>EYYYYYYYYY</div>
+  return <Projects />
 }
 
 export default Contact

@@ -6,7 +6,7 @@ import Blob from "@/components/svg/Blob"
 export default function App({ Component, pageProps }) {
   return (
     <div className="bg-[#f8eee8]" style={{ position: "relative" }}>
-      <div className="absolute inset-0 z-5 opacity-70">
+      <div className="hidden absolute inset-0 z-5 opacity-70">
         <Blob />
       </div>
       <div className="ml-10 z-40" style={{ position: "fixed" }}>
