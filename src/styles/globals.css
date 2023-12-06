@@ -8,5 +8,8 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+}
+
+.footerSVG {
+  background: #f8eee8;
 }
