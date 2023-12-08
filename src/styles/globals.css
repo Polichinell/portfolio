@@ -13,3 +13,7 @@ body {
 .footerSVG {
   background: #f8eee8;
 }
+
+.intro {
+  overflow-x: hidden;
+}

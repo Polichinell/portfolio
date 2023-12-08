@@ -1,5 +1,6 @@
 import React from "react"
 import { useState } from "react"
+import styles from "../styles/Projects.module.css"
 
 function Projects() {
   const defaultImage = "../low-poly-grid-haikei.png"
@@ -89,8 +90,8 @@ function Projects() {
         <div className="flex flex-row gap-5 justify-center">
           <div className="flex flex-col">
             <div
-              className="flex items-center text-center artboard artboard-horizontal text-white rounded-xl phone-1
-      bg-cover bg-no-repeat bg-center"
+              className={`${styles.boardy} flex items-center text-center border-[#D4A9A6] border-2 boardy text-white rounded-xl
+      bg-cover bg-no-repeat bg-center`}
               style={{ backgroundImage: `url('${project.image}')` }}
             >
               <div
@@ -102,7 +103,9 @@ function Projects() {
               </div>
             </div>
             {project.image !== defaultImage ? (
-              <ul className="menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6">
+              <ul
+                className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6`}
+              >
                 <li>
                   <a
                     className="tooltip"
@@ -168,30 +171,32 @@ function Projects() {
                 </li>
               </ul>
             ) : (
-              <ul className="menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6">
+              <ul
+                className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6`}
+              >
                 Click on a button ♪
               </ul>
             )}
           </div>
 
-          <div className="avatar flex-col gap-3">
+          <div className="avatar flex-col justify-center gap-3">
             <div
-              className="w-24 mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
+              className="w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
               onClick={() => imageClick("01")}
             >
-              <p className="transform -translate-y-[-2rem]">01</p>
+              <p className="transform -translate-y-[-1.5rem]">01</p>
             </div>
             <div
-              className="w-24 mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
+              className="w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
               onClick={() => imageClick("02")}
             >
-              <p className="transform -translate-y-[-2rem]">02</p>
+              <p className="transform -translate-y-[-1.5rem]">02</p>
             </div>
             <div
-              className="w-24 mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
+              className="w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
               onClick={() => imageClick("03")}
             >
-              <p className="transform -translate-y-[-2rem]">03</p>
+              <p className="transform -translate-y-[-1.5rem]">03</p>
             </div>
           </div>
         </div>

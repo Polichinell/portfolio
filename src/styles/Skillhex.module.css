@@ -12,14 +12,14 @@
 
 @media (min-width: 1200px) {
   .hexagonContainer {
-    transform: translateX(-90px);
+    transform: translateX(-30px);
   }
 
   .hexagon:nth-child(8n + 5),
   .hexagon:nth-child(8n + 6),
   .hexagon:nth-child(8n + 7),
   .hexagon:nth-child(8n + 8) {
-    margin-left: 150px;
+    margin-left: 115px;
   }
 }
 

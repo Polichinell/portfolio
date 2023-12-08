@@ -21,7 +21,9 @@ const Home = () => {
       </Head>
 
       {/* Hero Section */}
-      <IntroSection />
+      <div className="intro">
+        <IntroSection />
+      </div>
 
       <section className={`${styles.skills} my-[7rem]`}>
         <Skillhex className="z-8" />
