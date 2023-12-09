@@ -1,9 +1,10 @@
 import React from "react"
 import CaseStudy from "@/components/CaseStudy"
 
-function Ecommerce() {
-  const title = "Case Study: E-commerce website"
-  const desc = "This is the description of the e-commerce project case study"
+function MoviePr() {
+  const title = "Case Study: Movie Catalogue"
+  const desc =
+    "This is the description of the movie catalogue project case study"
   return (
     <>
       <div className="min-h-[800px]">
@@ -15,4 +16,4 @@ function Ecommerce() {
   )
 }
 
-export default Ecommerce
+export default MoviePr

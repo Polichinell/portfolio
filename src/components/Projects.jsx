@@ -10,6 +10,7 @@ function Projects() {
       image: "https://i.imgur.com/t9TbhFm.png",
       website: "https://cinecoderss.vercel.app",
       github: "https://github.com/202306-NEA-DZ-FEW/movie-project-cinecoders",
+      study: "/case-studies/movie-project",
       info: (
         <>
           A movie showcase website, using API to retrieve information about
@@ -24,6 +25,7 @@ function Projects() {
       image: "https://i.imgur.com/NQwHieA.png",
       website: "#",
       github: "https://github.com/202306-NEA-DZ-FEW/e-commerce-project-souqdz",
+      study: "/case-studies/e-commerce",
       info: (
         <>
           A mock e-commerce website.
@@ -37,6 +39,7 @@ function Projects() {
       image: "https://i.imgur.com/T0SAwEH.png",
       website: "https://pebble-work.vercel.app",
       github: "https://github.com/202306-NEA-DZ-FEW/Pebble-work",
+      study: "/case-studies/pebble-work",
       info: (
         <>
           A platform to organize different types of volunteer events. This is
@@ -66,6 +69,7 @@ function Projects() {
       website: project.website,
       github: project.github,
       info: project.info,
+      study: project.study,
     }))
 
     setInfoVisible(false)
@@ -150,8 +154,8 @@ function Projects() {
                 <li>
                   <a
                     className="tooltip"
-                    data-tip="Repository"
-                    href={project.github}
+                    data-tip="Case study"
+                    href={project.study}
                     target="_BLANK"
                   >
                     <svg
