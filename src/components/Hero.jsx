@@ -1,11 +1,11 @@
 import React from "react"
-import Flowers from "./svg/Flowers"
+import Flowers from "./svg/Flowers2"
 
 function IntroSection() {
   return (
     <>
       <section className="hero w-max">
-        <div className="grid max-w-screen-lg py-8 mx-auto lg:gap-6 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="grid max-w-screen-lg py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-[5rem]">
           <div className="mr-auto place-self-center lg:col-span-6">
             <h1 className="text-[#905E53] max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
               Welcome ✿
@@ -33,7 +33,7 @@ function IntroSection() {
               </svg>
             </a>
           </div>
-          <div className="lg:mt-0 lg:col-span-6 lg:flex">
+          <div className="lg:mt-0 lg:col-span-5 lg:flex">
             <Flowers />
             {/*  <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup" /> */}
           </div>

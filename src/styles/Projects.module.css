@@ -1,7 +1,27 @@
-visible {
+.visible {
   opacity: 1;
 }
 
-hidden {
+.hidden {
   opacity: 0;
+}
+
+@media (min-width: 1200px) {
+  .boardy {
+    width: 1000px;
+    height: 630px;
+    transform: translateX(80px);
+  }
+
+  .menuHorizontal {
+    transform: translateX(80px);
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+  .boardy {
+    width: 812px;
+    height: 375px;
+    background-color: black;
+  }
 }

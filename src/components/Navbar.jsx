@@ -22,7 +22,14 @@ function Navbar() {
           className={styles.bigXagon}
           style={{ transform: `rotate(${rotation}deg)` }}
           onClick={toggleMenu}
-        ></div>
+        >
+          <div
+            style={{ transform: `rotate(-${rotation}deg)` }}
+            className={`${styles.bigXagon} font-light text-2xl text-white flex items-center justify-center`}
+          >
+            Menu
+          </div>
+        </div>
 
         <div
           className={`${

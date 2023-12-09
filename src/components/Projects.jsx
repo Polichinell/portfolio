@@ -1,5 +1,6 @@
 import React from "react"
 import { useState } from "react"
+import styles from "../styles/Projects.module.css"
 
 function Projects() {
   const defaultImage = "../low-poly-grid-haikei.png"
@@ -9,6 +10,7 @@ function Projects() {
       image: "https://i.imgur.com/t9TbhFm.png",
       website: "https://cinecoderss.vercel.app",
       github: "https://github.com/202306-NEA-DZ-FEW/movie-project-cinecoders",
+      study: "/case-studies/movie-project",
       info: (
         <>
           A movie showcase website, using API to retrieve information about
@@ -23,6 +25,7 @@ function Projects() {
       image: "https://i.imgur.com/NQwHieA.png",
       website: "#",
       github: "https://github.com/202306-NEA-DZ-FEW/e-commerce-project-souqdz",
+      study: "/case-studies/e-commerce",
       info: (
         <>
           A mock e-commerce website.
@@ -36,6 +39,7 @@ function Projects() {
       image: "https://i.imgur.com/T0SAwEH.png",
       website: "https://pebble-work.vercel.app",
       github: "https://github.com/202306-NEA-DZ-FEW/Pebble-work",
+      study: "/case-studies/pebble-work",
       info: (
         <>
           A platform to organize different types of volunteer events. This is
@@ -65,6 +69,7 @@ function Projects() {
       website: project.website,
       github: project.github,
       info: project.info,
+      study: project.study,
     }))
 
     setInfoVisible(false)
@@ -89,8 +94,8 @@ function Projects() {
         <div className="flex flex-row gap-5 justify-center">
           <div className="flex flex-col">
             <div
-              className="flex items-center text-center artboard artboard-horizontal text-white rounded-xl phone-1
-      bg-cover bg-no-repeat bg-center"
+              className={`${styles.boardy} flex items-center text-center border-[#D4A9A6] border-2 boardy text-white rounded-xl
+      bg-cover bg-no-repeat bg-center`}
               style={{ backgroundImage: `url('${project.image}')` }}
             >
               <div
@@ -102,7 +107,9 @@ function Projects() {
               </div>
             </div>
             {project.image !== defaultImage ? (
-              <ul className="menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6">
+              <ul
+                className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6`}
+              >
                 <li>
                   <a
                     className="tooltip"
@@ -147,8 +154,8 @@ function Projects() {
                 <li>
                   <a
                     className="tooltip"
-                    data-tip="Repository"
-                    href={project.github}
+                    data-tip="Case study"
+                    href={project.study}
                     target="_BLANK"
                   >
                     <svg
@@ -168,30 +175,32 @@ function Projects() {
                 </li>
               </ul>
             ) : (
-              <ul className="menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6">
+              <ul
+                className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6`}
+              >
                 Click on a button ♪
               </ul>
             )}
           </div>
 
-          <div className="avatar flex-col gap-3">
+          <div className="avatar flex-col justify-center gap-3">
             <div
-              className="w-24 mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
+              className="w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
               onClick={() => imageClick("01")}
             >
-              <p className="transform -translate-y-[-2rem]">01</p>
+              <p className="transform -translate-y-[-1.5rem]">01</p>
             </div>
             <div
-              className="w-24 mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
+              className="w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
               onClick={() => imageClick("02")}
             >
-              <p className="transform -translate-y-[-2rem]">02</p>
+              <p className="transform -translate-y-[-1.5rem]">02</p>
             </div>
             <div
-              className="w-24 mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
+              className="w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer"
               onClick={() => imageClick("03")}
             >
-              <p className="transform -translate-y-[-2rem]">03</p>
+              <p className="transform -translate-y-[-1.5rem]">03</p>
             </div>
           </div>
         </div>
