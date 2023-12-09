@@ -29,7 +29,7 @@ function index() {
             ></figure>
             <div className="card-body min-w-[300px]">
               <h2 className="card-title">{page.title}</h2>
-              <p>Description here</p>
+              <p>Description here.</p>
               <div className="card-actions justify-end">
                 <Link href={`/case-studies/${page.name}`}>
                   <button className="btn bg-[#d4a9a6] text-slate-50">
