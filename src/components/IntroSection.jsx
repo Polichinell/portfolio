@@ -6,7 +6,7 @@ import Blob from "./svg/Blob"
 function IntroSection() {
   return (
     <>
-      <div className="relative z-30">
+      <div className="relative z-30 mb-[5rem]">
         <div className="mb-[4.5rem] ">
           <Hero />{" "}
         </div>
@@ -14,8 +14,8 @@ function IntroSection() {
         <About />
       </div>
 
-      <div className="absolute inset-0 z-5 opacity-70">
-        <Blob style={{ width: "100%", height: "100%" }} />
+      <div className="absolute inset-[3rem] z-5 opacity-70 max-h-[100px]">
+        <Blob />
       </div>
     </>
   )
