@@ -1,4 +1,3 @@
-import Head from "next/head"
 import styles from "../styles/Home.module.css"
 import { useState } from "react"
 import Skillhex from "@/components/Skillhex"
@@ -14,12 +13,6 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Polichinell | web artist♪</title>
-        <meta name="description" content="Developer Portfolio" />
-        <link rel="icon" href="/icons-96.png" />
-      </Head>
-
       {/* Hero Section */}
       <div className="intro">
         <IntroSection />
