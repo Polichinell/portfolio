@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react"
-import styles from "../styles/Projects.module.css"
+import styles from "@/styles/Projects.module.css"
 
 function Projects() {
   const defaultImage = "../low-poly-grid-haikei.png"
@@ -94,7 +94,7 @@ function Projects() {
         <div className="flex flex-row gap-5 justify-center">
           <div className="flex flex-col">
             <div
-              className={`${styles.boardy} flex items-center text-center border-[#D4A9A6] border-2 boardy text-white rounded-xl
+              className={`${styles.boardy} relative flex items-center text-center border-[#D4A9A6] border-2 boardy text-white rounded-xl
       bg-cover bg-no-repeat bg-center`}
               style={{ backgroundImage: `url('${project.image}')` }}
             >
@@ -105,82 +105,90 @@ function Projects() {
               >
                 {project.info}
               </div>
+              <div className=" flex flex-row">
+                <div className="absolute w-[500px] bottom-5 left-5">
+                  {project.image !== defaultImage ? (
+                    <ul
+                      className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-[250px] bg-[#AE5770] rounded-box text-slate-50 mt-6`}
+                    >
+                      <li>
+                        <a
+                          className="tooltip"
+                          data-tip="Website"
+                          href={project.website}
+                          target="_BLANK"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                            />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="tooltip"
+                          data-tip="Info"
+                          onClick={infoWindow}
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="tooltip"
+                          data-tip="Case study"
+                          href={project.study}
+                          target="_BLANK"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            className="w-5 h-5 stroke-current"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
+                            ></path>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  ) : (
+                    <ul
+                      className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box border-2 text-slate-50 mt-6`}
+                    >
+                      Click on a button ♪
+                    </ul>
+                  )}
+                </div>
+              </div>
             </div>
-            {project.image !== defaultImage ? (
-              <ul
-                className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6`}
-              >
-                <li>
-                  <a
-                    className="tooltip"
-                    data-tip="Website"
-                    href={project.website}
-                    target="_BLANK"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a className="tooltip" data-tip="Info" onClick={infoWindow}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="tooltip"
-                    data-tip="Case study"
-                    href={project.study}
-                    target="_BLANK"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      className="w-5 h-5 stroke-current"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-                      ></path>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            ) : (
-              <ul
-                className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box text-slate-50 mt-6`}
-              >
-                Click on a button ♪
-              </ul>
-            )}
           </div>
 
           <div className="avatar flex-col justify-center gap-3">

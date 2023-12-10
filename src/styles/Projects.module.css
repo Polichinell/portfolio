@@ -18,10 +18,95 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1199px) {
+@media (min-width: 910px) and (max-width: 1199px) {
   .boardy {
     width: 812px;
     height: 375px;
     background-color: black;
+  }
+}
+
+.boardyMD {
+  width: screen;
+  height: 375px;
+}
+
+@media (max-width: 650px) {
+  .boardyMD {
+    width: screen;
+    height: 305px;
+  }
+
+  .textMD {
+    font-size: larger;
+  }
+
+  .menuHorizontal {
+    width: fit-content;
+    padding: 3px;
+  }
+
+  .maskHexagon {
+    width: 4rem;
+    font-size: larger;
+  }
+
+  .maskHexagon p {
+    transform: translateY(1rem);
+  }
+  .menuHorizontal p {
+    padding: 3px;
+  }
+}
+
+@media (max-width: 498px) {
+  .boardyMD {
+    width: screen;
+    height: 280px;
+    overflow-y: hidden;
+  }
+
+  .textMD {
+    font-size: medium;
+  }
+
+  .menuHorizontal {
+    width: fit-content;
+    padding: 3px;
+  }
+
+  .maskHexagon {
+    width: 3.5rem;
+    font-size: larger;
+  }
+
+  .maskHexagon p {
+    transform: translateY(0.8rem);
+  }
+  .menuHorizontal p {
+    padding: 3px;
+  }
+
+  .menuHex {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 316px) {
+  .boardyMD {
+    width: screen;
+    height: 200px;
+    overflow-y: scroll;
+  }
+
+  .textMD {
+    font-size: small;
   }
 }

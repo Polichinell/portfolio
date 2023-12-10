@@ -71,9 +71,11 @@
 @media (min-width: 800px) and (max-width: 1023px) {
   .hiddenMenu {
     transform: translateX(100%);
+    overflow-x: hidden;
   }
 
   .visibleMenu {
     transform: translateX(2rem);
+    overflow-x: hidden;
   }
 }
