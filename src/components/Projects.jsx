@@ -84,7 +84,7 @@ function Projects() {
   return (
     <div>
       <h1
-        className="text-center text-5xl pt-5 my-[5rem] text-[#AE5770]"
+        className="smallestScreen text-center text-5xl pt-5 my-[5rem] text-[#AE5770]"
         id="projects"
       >
         Projects

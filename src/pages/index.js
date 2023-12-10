@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css"
 import { useState } from "react"
 import Skillhex from "@/components/Skillhex"
 import Planets from "@/components/svg/Planets"
-import Navbar from "@/components/Navbar"
+import Navbar from "@/components/Navbar/Navbar"
 import Flowers from "@/components/svg/Flowers"
 import Blob from "@/components/svg/Blob"
 import IntroSection from "@/components/IntroSection"
@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <div className={` z-10 ${styles.container}`}>
         {/* Hero Section */}
-        <div className="intro">
+        <div className="intro smallestScreen">
           <IntroSection />
         </div>
 
@@ -26,7 +26,7 @@ const Home = () => {
 
         <Projects />
       </div>
-      <section id="contact" className={`${styles.contact} z-30`}>
+      <section id="contact" className={`${styles.contact} z-30 smallestScreen`}>
         <h1 className="text-center text-5xl my-[5rem] text-[#AE5770]">
           Contact
         </h1>
