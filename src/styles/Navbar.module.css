@@ -67,3 +67,13 @@
     opacity 0.5s,
     transform 0.5s;
 }
+
+@media (min-width: 800px) and (max-width: 1023px) {
+  .hiddenMenu {
+    transform: translateX(100%);
+  }
+
+  .visibleMenu {
+    transform: translateX(2rem);
+  }
+}
