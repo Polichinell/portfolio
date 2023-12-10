@@ -2,31 +2,33 @@ import styles from "../styles/Home.module.css"
 import { useState } from "react"
 import Skillhex from "@/components/Skillhex"
 import Planets from "@/components/svg/Planets"
-import Navbar from "@/components/Navbar"
+import Navbar from "@/components/Navbar/Navbar"
 import Flowers from "@/components/svg/Flowers"
 import Blob from "@/components/svg/Blob"
 import IntroSection from "@/components/IntroSection"
-import Projects from "@/components/Projects"
+import Projects from "@/components/Projects/Projects"
 import Contact from "@/components/Contact"
+import ProjectsMD from "@/components/Projects/ProjectsMD"
+import { useMediaQuery } from "@mui/material"
 
 const Home = () => {
   const projectArr = ["Project 1", "Project 2", "Project 3"]
+  const projectLg = useMediaQuery("(max-width: 1023px)")
 
   return (
     <>
       <div className={` z-10 ${styles.container}`}>
         {/* Hero Section */}
-        <div className="intro">
+        <div className="intro smallestScreen">
           <IntroSection />
         </div>
 
         <section className={`${styles.skills} my-[10rem]`}>
           <Skillhex className="z-8" />
         </section>
-
-        <Projects />
+        {projectLg ? <ProjectsMD /> : <Projects />}
       </div>
-      <section id="contact" className={`${styles.contact} z-30`}>
+      <section id="contact" className={`${styles.contact} z-30 smallestScreen`}>
         <h1 className="text-center text-5xl my-[5rem] text-[#AE5770]">
           Contact
         </h1>
