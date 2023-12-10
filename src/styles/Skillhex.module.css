@@ -66,3 +66,37 @@
   height: 75%;
   transition: var(--hex-transition);
 }
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .hexagon {
+    align-items: center;
+    display: flex;
+    fill: white;
+    height: 4rem;
+    width: 4.5rem;
+  }
+  .hexagonContainer {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 399px) {
+  .hexagon {
+    align-items: center;
+    display: flex;
+    fill: white;
+    height: 5rem;
+    width: 5.5rem;
+  }
+  .hexagonContainer {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: center;
+    margin: auto;
+  }
+}

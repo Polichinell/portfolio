@@ -1,0 +1,323 @@
+.HTML {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.HTML:hover {
+  background-color: #ae5770;
+}
+
+.HTML svg {
+  fill: white;
+}
+
+.HTML:hover svg {
+  fill: #ae5770;
+}
+
+.HTML::after {
+  content: "HTML5";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.HTML:hover::after {
+  transform: translateY(0);
+}
+
+.CSS {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.CSS:hover {
+  background-color: #ae5770;
+}
+
+.CSS svg {
+  fill: white;
+}
+
+.CSS:hover svg {
+  fill: #ae5770;
+}
+
+.CSS::after {
+  content: "CSS3";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.CSS:hover::after {
+  transform: translateY(0);
+}
+
+.Javascript {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.Javascript:hover {
+  background-color: #ae5770;
+}
+
+.Javascript svg {
+  fill: white;
+}
+
+.Javascript:hover svg {
+  fill: #ae5770;
+}
+
+.Javascript::after {
+  content: "JavaScript";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.Javascript:hover::after {
+  transform: translateY(0);
+}
+
+.Git {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.Git:hover {
+  background-color: #ae5770;
+}
+
+.Git svg {
+  fill: white;
+}
+
+.Git:hover svg {
+  fill: #ae5770;
+}
+
+.Git::after {
+  content: "Git";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.Git:hover::after {
+  transform: translateY(0);
+}
+
+.Bootstrap {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.Bootstrap:hover {
+  background-color: #ae5770;
+}
+
+.Bootstrap svg {
+  fill: white;
+}
+
+.Bootstrap:hover svg {
+  fill: #ae5770;
+}
+
+.Bootstrap::after {
+  content: "Bootstrap";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.Bootstrap:hover::after {
+  transform: translateY(0);
+}
+
+.NextJS {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.NextJS:hover {
+  background-color: #ae5770;
+}
+
+.NextJS svg {
+  fill: white;
+}
+
+.NextJS:hover svg {
+  fill: #ae5770;
+}
+
+.NextJS::after {
+  content: "Next.JS";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.NextJS:hover::after {
+  transform: translateY(0);
+}
+
+.Tailwinds {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.Tailwinds:hover {
+  background-color: #ae5770;
+}
+
+.Tailwinds svg {
+  fill: white;
+}
+
+.Tailwinds:hover svg {
+  fill: #ae5770;
+}
+
+.Tailwinds::after {
+  content: "Tailwinds";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.Tailwinds:hover::after {
+  transform: translateY(0);
+}
+
+.Firebase {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.Firebase:hover {
+  background-color: #ae5770;
+}
+
+.Firebase svg {
+  fill: white;
+}
+
+.Firebase:hover svg {
+  fill: #ae5770;
+}
+
+.Firebase::after {
+  content: "Firebase";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.Firebase:hover::after {
+  transform: translateY(0);
+}
+
+.GitHub {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.GitHub:hover {
+  background-color: #ae5770;
+}
+
+.GitHub svg {
+  fill: white;
+}
+
+.GitHub:hover svg {
+  fill: #ae5770;
+}
+
+.GitHub::after {
+  content: "GitHub";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ae5770;
+  color: white;
+  padding: 0.5rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+}
+
+.GitHub:hover::after {
+  transform: translateY(0);
+}
