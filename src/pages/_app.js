@@ -5,6 +5,7 @@ import Navbar2 from "@/components/CaseStudyMenu"
 import Footer from "@/components/Footer"
 import Blob from "@/components/svg/Blob"
 import { useRouter } from "next/router"
+import { useEffect } from "react"
 
 export default function App({ Component, pageProps }) {
   const router = useRouter()
@@ -13,6 +14,33 @@ export default function App({ Component, pageProps }) {
   const shouldHideNavbar = router.pathname.startsWith(hideNavbarOnPages)
   const isCaseStudiesPage = router.pathname === "/case-studies"
 
+  useEffect(() => {
+    const button = document.getElementById("back-to-top")
+
+    const scrollFunction = () => {
+      if (
+        document.body.scrollTop > 50 ||
+        document.documentElement.scrollTop > 50
+      ) {
+        button.style.display = "block"
+      } else {
+        button.style.display = "none"
+      }
+    }
+
+    window.onscroll = scrollFunction
+
+    return () => {
+      window.onscroll = null // Cleanup the event listener on component unmount
+    }
+  }, []) // Run the effect only once on mount
+
+  const backToTop = () => {
+    console.log("Button clicked!")
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
+
   return (
     <div className="bg-[#f8eee8]" style={{ position: "relative" }}>
       <Head>
@@ -20,6 +48,14 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content="Developer Portfolio" />
         <link rel="icon" href="/icons-96.png" />
       </Head>
+      <button
+        type="button"
+        class="btn z-50"
+        id="back-to-top"
+        onClick={backToTop}
+      >
+        ▲
+      </button>
       <div className="hidden absolute inset-0 z-5 opacity-70">
         <Blob />
       </div>
