@@ -35,6 +35,20 @@
 }
 
 .formulaire {
-  background-color: #3498db;
-  margin: 0 auto;
+  margin: auto;
+  justify-content: center;
+  max-width: fit-content;
+}
+
+.formulaire2 {
+  margin: auto;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .formulaire {
+    max-width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

@@ -8,32 +8,23 @@ function About() {
       </h1>
 
       <div className="flex gap-10">
-        <div
-          className="bg-white bg-opacity-70 rounded-3xl w-7/12 mx-auto mt-5"
-          style={{ minHeight: "450px" }}
-        >
-          <p className="p-8">
-            Le lorem ipsum est, en imprimerie, une suite de mots sans
-            signification utilisée à titre provisoire pour calibrer une mise en
-            page, le texte définitif venant remplacer le faux-texte dès
-            qu&apos;il est prêt ou que la mise en page est achevée.
-            Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
-            Lipsum
+        <div className="bg-white bg-opacity-70 rounded-3xl w-3/4 mx-auto mt-[4rem]">
+          <p className="p-[3rem] mt-3 text-md">
+            Hello there!~ I&apos;m Louis, a coding enthusiast with a passion for
+            pixels and a certain interest in simple yet pretty web designs.
+            <br />
+            <br />
+            As a junior front-end developer, crafting delightful and engaging
+            digital experiences is my main quest. Brewing a special blend of
+            form and function with HTML, CSS, and JavaScript as my special
+            ingredients, I&apos;m on a mission to bring designs to life and add
+            that extra sprinkle of magic to the web. When I&apos;m not typing
+            away, you can find me creating digital illustrations, adding an
+            extra touch of wonder to the experience.
+            <br />
+            <br />
+            Let&apos;s build something amazing together. ♪
           </p>{" "}
-        </div>
-
-        <div
-          className="bg-white bg-opacity-70 rounded-3xl w-7/12 mx-auto mt-5"
-          style={{ minHeight: "200px" }}
-        >
-          <p className="p-8">
-            Le lorem ipsum est, en imprimerie, une suite de mots sans
-            signification utilisée à titre provisoire pour calibrer une mise en
-            page, le texte définitif venant remplacer le faux-texte dès
-            qu&apos;il est prêt ou que la mise en page est achevée.
-            Généralement, on utilise un texte en faux latin, le Lorem ipsum ou
-            Lipsum
-          </p>
         </div>
       </div>
     </>

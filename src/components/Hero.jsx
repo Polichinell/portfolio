@@ -4,15 +4,16 @@ import Flowers from "./svg/Flowers2"
 function IntroSection() {
   return (
     <>
-      <section className="hero w-max">
+      <section className="hero w-max pl-20">
         <div className="grid max-w-screen-lg py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-[5rem]">
-          <div className="mr-auto place-self-center lg:col-span-6">
+          <div className="mx-auto place-self-center lg:col-span-6">
             <h1 className="text-[#905E53] max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
               Welcome ✿
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Small and cute intro goes here, front end developpment toussa. And
-              some more text goes here, front end developpment toussa.
+              Weaving code into enchanting digital experiences.
+              <br />
+              Ready to be spellbound? Let the coding magic begin!
             </p>
             <a
               href="#about"

@@ -7,86 +7,32 @@ import Flowers from "@/components/svg/Flowers"
 import Blob from "@/components/svg/Blob"
 import IntroSection from "@/components/IntroSection"
 import Projects from "@/components/Projects"
+import Contact from "@/components/Contact"
 
 const Home = () => {
   const projectArr = ["Project 1", "Project 2", "Project 3"]
 
   return (
-    <div className={styles.container}>
-      {/* Hero Section */}
-      <div className="intro">
-        <IntroSection />
+    <>
+      <div className={` z-10 ${styles.container}`}>
+        {/* Hero Section */}
+        <div className="intro">
+          <IntroSection />
+        </div>
+
+        <section className={`${styles.skills} my-[10rem]`}>
+          <Skillhex className="z-8" />
+        </section>
+
+        <Projects />
       </div>
-
-      <section className={`${styles.skills} my-[7rem]`}>
-        <Skillhex className="z-8" />
-      </section>
-
-      <Projects />
-
-      <section id="contact" className={styles.contact}>
+      <section id="contact" className={`${styles.contact} z-30`}>
         <h1 className="text-center text-5xl my-[5rem] text-[#AE5770]">
           Contact
         </h1>
-
-        <form className="formulaire pl-[6rem]">
-          <div className="flex flex-row gap-4">
-            <label className="form-control w-full max-w-xs">
-              <div className="label">
-                <span className=" ">First Name</span>
-              </div>
-              <input
-                type="text"
-                name="name"
-                placeholder="Type here"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </label>
-
-            <label className="form-control w-full max-w-xs">
-              <div className="label">
-                <span>Email</span>
-              </div>
-              <input
-                type="email"
-                name="email"
-                placeholder="Type here"
-                className="input input-bordered w-full max-w-xs"
-              />
-            </label>
-          </div>
-
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span>Subject</span>
-            </div>
-            <input
-              type="text"
-              name="subject"
-              placeholder="Type here"
-              className="input input-bordered w-[655px]"
-            />
-          </label>
-
-          <label className="form-control w-full max-w-xs">
-            <div className="label">
-              <span>Message</span>
-            </div>
-            <textarea
-              placeholder="Your message here"
-              className="textarea textarea-bordered textarea-lg w-[655px] min-h-[200px]"
-            ></textarea>
-          </label>
-
-          <button
-            type="submit"
-            className="flex btn mt-5 bg-[#CEC79B] text-slate-50 hover:bg-[#a8a06c]"
-          >
-            Submit
-          </button>
-        </form>
+        <Contact />
       </section>
-    </div>
+    </>
   )
 }
 
