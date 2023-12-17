@@ -35,7 +35,7 @@ const Contact = () => {
         onSubmit={sendEmail}
         className={`${styles.formulaire} flex flex-col gap-4`}
       >
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center px-2">
           <div className="flex flex-row gap-4 ">
             <label className="form-control w-full max-w-xs">
               <input
@@ -57,7 +57,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <label className="form-control w-full">
+        <label className="form-control w-full px-2">
           <input
             type="text"
             name="subject"
@@ -66,7 +66,7 @@ const Contact = () => {
           />
         </label>
 
-        <label className="form-control">
+        <label className="form-control px-2">
           <textarea
             placeholder="Message"
             name="message"
