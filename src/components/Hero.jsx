@@ -7,7 +7,7 @@ function IntroSection() {
       <section className="hero w-max pl-20">
         <div className="grid max-w-screen-lg py-8 mx-auto lg:gap-5 xl:gap-0 lg:py-16 lg:grid-cols-12 mt-[5rem]">
           <div className="mx-auto place-self-center lg:col-span-6">
-            <h1 className="text-[#905E53] max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+            <h1 className="text-[#FEA28B] max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
               Welcome ✿
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -17,7 +17,7 @@ function IntroSection() {
             </p>
             <a
               href="#about"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-slate-50 rounded-lg bg-[#CEC79B]  hover:bg-[#a8a06c] hover:bg-opacity-80 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-slate-50 rounded-lg bg-[#F57956]  hover:bg-[#a8a06c] hover:bg-opacity-80 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
             >
               Start
               <svg

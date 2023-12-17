@@ -15,7 +15,7 @@ function index() {
           <Navbar2 link="/" text="Home" />
         </div>
 
-        <h1 className="text-[#AE5770] text-5xl text-center pt-[3rem]">
+        <h1 className="text-[#F57956] text-5xl text-center pt-[3rem]">
           Case Studies
         </h1>
       </div>
@@ -32,7 +32,7 @@ function index() {
               <p>Description here.</p>
               <div className="card-actions justify-end">
                 <Link href={`/case-studies/${page.name}`}>
-                  <button className="btn bg-[#d4a9a6] text-slate-50">
+                  <button className="btn bg-[#FBE9AE] text-slate-50">
                     Read more
                   </button>
                 </Link>

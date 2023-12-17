@@ -40,7 +40,7 @@
 
 .hexagon {
   align-items: center;
-  background-color: #d4a9a6;
+  background-color: #fbe9ae;
   cursor: pointer;
   display: flex;
   fill: white;
@@ -53,14 +53,14 @@
 }
 
 .hexagon:hover {
-  background-color: #ae5770;
+  background-color: #fdd443;
 }
 
 .null {
   cursor: default;
 }
 .null:hover {
-  background-color: #d4a9a6;
+  background-color: #fbe9ae;
 }
 .hexagon > svg {
   height: 75%;

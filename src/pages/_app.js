@@ -48,7 +48,7 @@ export default function App({ Component, pageProps }) {
   }
 
   return (
-    <div className="bg-[#f8eee8]" style={{ position: "relative" }}>
+    <div className="bg-[#FEFBF2]" style={{ position: "relative" }}>
       <Head>
         <title>Polichinell | web artist♪</title>
         <meta name="description" content="Developer Portfolio" />

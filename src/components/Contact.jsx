@@ -76,7 +76,7 @@ const Contact = () => {
 
         <button
           type="submit"
-          className=" max-w-sm btn mt-5 bg-[#CEC79B] mx-auto text-slate-50 hover:bg-[#a8a06c]"
+          className=" max-w-sm btn mt-5 bg-[#F57956] mx-auto text-slate-50 hover:bg-[#a8a06c]"
         >
           Submit
         </button>

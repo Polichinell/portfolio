@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import styles from "@/styles/Projects.module.css"
 
 function ProjectsMD() {
-  const defaultImage = "../low-poly-grid-haikei.png"
+  const defaultImage = "../low-poly-orange-haikei.png"
 
   const projects = {
     project_01: {
@@ -83,7 +83,7 @@ function ProjectsMD() {
   return (
     <>
       <h1
-        className={`${styles.h1} smallestScreen text-center text-5xl pt-5 my-[5rem] text-[#AE5770]`}
+        className={`${styles.h1} smallestScreen text-center text-5xl pt-5 my-[5rem] text-[#F57956]`}
         id="projects"
       >
         Projects
@@ -92,19 +92,19 @@ function ProjectsMD() {
       <section>
         <div className={`${styles.menuHex} avatar flex-row mb-5 gap-3`}>
           <div
-            className={`${styles.maskHexagon} w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer`}
+            className={`${styles.maskHexagon} w-[5rem] mask mask-hexagon bg-[#FBE9AE] text-slate-50 text-center text-2xl hover:cursor-pointer`}
             onClick={() => imageClick("01")}
           >
             <p className="transform -translate-y-[-1.5rem]">01</p>
           </div>
           <div
-            className={`${styles.maskHexagon} w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer`}
+            className={`${styles.maskHexagon} w-[5rem] mask mask-hexagon bg-[#FBE9AE] text-slate-50 text-center text-2xl hover:cursor-pointer`}
             onClick={() => imageClick("02")}
           >
             <p className="transform -translate-y-[-1.5rem]">02</p>
           </div>
           <div
-            className={`${styles.maskHexagon} w-[5rem] mask mask-hexagon bg-[#D4A9A6] text-slate-50 text-center text-2xl hover:cursor-pointer`}
+            className={`${styles.maskHexagon} w-[5rem] mask mask-hexagon bg-[#FBE9AE] text-slate-50 text-center text-2xl hover:cursor-pointer`}
             onClick={() => imageClick("03")}
           >
             <p className="transform -translate-y-[-1.5rem]">03</p>
@@ -113,12 +113,12 @@ function ProjectsMD() {
 
         <div className="justify-center">
           <div
-            className={`${styles.boardyMD} flex items-center text-center border-[#D4A9A6] border-2 text-white rounded-xl
+            className={`${styles.boardyMD} flex items-center text-center border-[#FBE9AE] border-2 text-white rounded-xl
       bg-cover bg-no-repeat bg-center`}
             style={{ backgroundImage: `url('${project.image}')` }}
           >
             <div
-              className={`bg-[#AE5770] bg-opacity-70 p-10 w-full ${
+              className={`bg-[#FDD443] bg-opacity-70 p-10 w-full ${
                 infoVisible ? "visible" : "hidden"
               } ${styles.textMD}`}
             >
@@ -128,7 +128,7 @@ function ProjectsMD() {
 
           {project.image !== defaultImage ? (
             <ul
-              className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-[250px] bg-[#AE5770] rounded-box text-slate-50 mt-6`}
+              className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-[250px] bg-[#FDD443] rounded-box text-slate-50 mt-6`}
             >
               <li>
                 <a
@@ -142,7 +142,7 @@ function ProjectsMD() {
                     className="h-5 w-5"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#fff"
                   >
                     <path
                       strokeLinecap="round"
@@ -160,7 +160,7 @@ function ProjectsMD() {
                     className="h-5 w-5"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#fff"
                   >
                     <path
                       strokeLinecap="round"
@@ -181,8 +181,9 @@ function ProjectsMD() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
+                    stroke="#fff"
                     viewBox="0 0 24 24"
-                    className="w-5 h-5 stroke-current"
+                    className="w-5 h-5"
                   >
                     <path
                       strokeLinecap="round"
@@ -196,7 +197,7 @@ function ProjectsMD() {
             </ul>
           ) : (
             <ul
-              className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#AE5770] rounded-box border-2 text-slate-50 mt-6`}
+              className={`${styles.menuHorizontal} menu menu-horizontal flex justify-around w-1/3 bg-[#FDD443] rounded-box border-2 text-slate-50 mt-6`}
             >
               <p>Click on a button ♪</p>
             </ul>

@@ -31,7 +31,7 @@ const Home = () => {
         {projectLg ? <ProjectsMD /> : <Projects />}
       </div>
       <section id="contact" className={`${styles.contact} z-30 smallestScreen`}>
-        <h1 className="text-center text-5xl mt-[5rem] mb-4 text-[#AE5770]">
+        <h1 className="text-center text-5xl mt-[5rem] mb-4 text-[#F57956]">
           Contact
         </h1>
 
