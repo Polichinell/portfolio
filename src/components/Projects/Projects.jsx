@@ -3,7 +3,7 @@ import { useState } from "react"
 import styles from "@/styles/Projects.module.css"
 
 function Projects() {
-  const defaultImage = "../low-poly-orange-haikei.png"
+  const defaultImage = "../low-poly-grid-haikei.png"
 
   const projects = {
     project_01: {
@@ -159,7 +159,7 @@ function Projects() {
                       <li>
                         <a
                           className="tooltip"
-                          data-tip="Case study"
+                          data-tip="Tech. details"
                           href={project.study}
                           target="_BLANK"
                         >

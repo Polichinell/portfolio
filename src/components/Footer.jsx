@@ -51,12 +51,6 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                Hexagon grid by{" "}
-                <Link href="https://codepen.io/ericornelissen" target="_BLANK">
-                  Eric Cornelissen
-                </Link>
-              </li>
-              <li>
                 Lily icon by{" "}
                 <Link
                   href="https://icons8.com/icon/vU1hzXyejzpT/lily"
