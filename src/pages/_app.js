@@ -14,6 +14,9 @@ export default function App({ Component, pageProps }) {
   const smallScreen = useMediaQuery("(min-width: 500px) and (max-width: 800px)")
   const smallestScreen = useMediaQuery("(max-width: 500px)")
 
+  const MDscreen = smallScreen
+  const SMscreen = smallestScreen
+
   const router = useRouter()
   const hideNavbarOnPages = ["/case-studies/"]
 
@@ -48,7 +51,7 @@ export default function App({ Component, pageProps }) {
   }
 
   return (
-    <div className="bg-[#f8eee8]" style={{ position: "relative" }}>
+    <div className="bg-[#FEFBF2]" style={{ position: "relative" }}>
       <Head>
         <title>Polichinell | web artist♪</title>
         <meta name="description" content="Developer Portfolio" />
@@ -65,13 +68,13 @@ export default function App({ Component, pageProps }) {
       <div className="hidden absolute inset-0 z-5 opacity-70">
         <Blob />
       </div>
-      {smallScreen ? (
+      {smallScreen && isCaseStudiesPage && shouldHideNavbar ? (
         <div className="pb-10">
           <SmallNav />
         </div>
       ) : (
         <>
-          {smallestScreen ? (
+          {smallestScreen && isCaseStudiesPage && shouldHideNavbar ? (
             <>
               <div className="pb-20 flex flex-row px-5">
                 <SmallestNav />
@@ -82,10 +85,22 @@ export default function App({ Component, pageProps }) {
               <div className="ml-10 z-40 navBar" style={{ position: "fixed" }}>
                 {!isCaseStudiesPage && !shouldHideNavbar && <Navbar />}
               </div>
-              <div className="ml-10 z-40" style={{ position: "absolute" }}>
-                {shouldHideNavbar && (
-                  <Navbar2 link="/case-studies" text="Back" />
-                )}
+              <div>
+                <div
+                  className="ml-10 z-40 mb-[5rem]"
+                  style={{ position: "absolute" }}
+                >
+                  {shouldHideNavbar && (
+                    <Navbar2 link="/case-studies" text="Back" />
+                  )}
+                </div>
+                <div
+                  className="ml-10 z-40 mb-[5rem]"
+                  style={{ position: "absolute" }}
+                >
+                  {isCaseStudiesPage && <Navbar2 link="/" text="Home" />}
+                </div>
+                <div className="h-[7rem]"></div>
               </div>
             </>
           )}

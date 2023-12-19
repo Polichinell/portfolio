@@ -27,7 +27,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -51,7 +51,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FEA28B",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -75,7 +75,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -123,7 +123,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -171,7 +171,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -219,7 +219,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -243,7 +243,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -267,7 +267,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -315,7 +315,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -339,7 +339,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -387,7 +387,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -411,7 +411,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -459,7 +459,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -483,7 +483,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -507,7 +507,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -555,7 +555,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -603,7 +603,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -651,7 +651,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -699,7 +699,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -747,7 +747,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -795,7 +795,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -843,7 +843,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -891,7 +891,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 0.5,
               }}
@@ -915,7 +915,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 0.3,
               }}
@@ -939,7 +939,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -987,7 +987,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1011,7 +1011,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1059,7 +1059,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1107,7 +1107,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1155,7 +1155,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#F57956",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1203,7 +1203,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#F57956",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1251,7 +1251,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#F57956",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1299,7 +1299,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#F57956",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1347,7 +1347,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1395,7 +1395,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1443,7 +1443,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1491,7 +1491,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1539,7 +1539,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1587,7 +1587,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1635,7 +1635,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1683,7 +1683,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1731,7 +1731,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1755,7 +1755,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1803,7 +1803,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1851,7 +1851,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1899,7 +1899,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1947,7 +1947,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -1995,7 +1995,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2019,7 +2019,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2043,7 +2043,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2091,7 +2091,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2115,7 +2115,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2163,7 +2163,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2187,7 +2187,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2235,7 +2235,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2259,7 +2259,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2283,7 +2283,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2307,7 +2307,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2355,7 +2355,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2427,7 +2427,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2475,7 +2475,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2523,7 +2523,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2547,7 +2547,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2571,7 +2571,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2595,7 +2595,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2643,7 +2643,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2691,7 +2691,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2739,7 +2739,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2787,7 +2787,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2835,7 +2835,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#Fff",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2883,7 +2883,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 0.5,
               }}
@@ -2907,7 +2907,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 0.3,
               }}
@@ -2931,7 +2931,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -2979,7 +2979,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3003,7 +3003,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3051,7 +3051,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3099,7 +3099,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3147,7 +3147,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3171,7 +3171,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3195,7 +3195,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3219,7 +3219,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3243,7 +3243,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3267,7 +3267,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3315,7 +3315,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3363,7 +3363,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3411,7 +3411,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3435,7 +3435,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3483,7 +3483,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3531,7 +3531,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3579,7 +3579,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3603,7 +3603,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3651,7 +3651,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3699,7 +3699,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3723,7 +3723,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3747,7 +3747,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3771,7 +3771,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3819,7 +3819,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3867,7 +3867,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3939,7 +3939,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -3987,7 +3987,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4035,7 +4035,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4083,7 +4083,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4131,7 +4131,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4155,7 +4155,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4179,7 +4179,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4203,7 +4203,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4227,7 +4227,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4251,7 +4251,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4275,7 +4275,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4299,7 +4299,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4323,7 +4323,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4347,7 +4347,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4395,7 +4395,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4443,7 +4443,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4491,7 +4491,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4539,7 +4539,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4587,7 +4587,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4635,7 +4635,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4683,7 +4683,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4731,7 +4731,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4755,7 +4755,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4803,7 +4803,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4851,7 +4851,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4899,7 +4899,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4947,7 +4947,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -4995,7 +4995,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5019,7 +5019,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5043,7 +5043,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5091,7 +5091,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5115,7 +5115,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5163,7 +5163,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5187,7 +5187,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5235,7 +5235,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5259,7 +5259,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5283,7 +5283,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5307,7 +5307,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5355,7 +5355,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5427,7 +5427,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5475,7 +5475,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5523,7 +5523,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5547,7 +5547,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5571,7 +5571,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5595,7 +5595,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5619,7 +5619,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5643,7 +5643,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5667,7 +5667,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5691,7 +5691,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5739,7 +5739,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5787,7 +5787,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5835,7 +5835,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5859,7 +5859,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5907,7 +5907,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -5955,7 +5955,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6003,7 +6003,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6027,7 +6027,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6075,7 +6075,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6123,7 +6123,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6147,7 +6147,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6171,7 +6171,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6195,7 +6195,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6243,7 +6243,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6291,7 +6291,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6363,7 +6363,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6411,7 +6411,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6459,7 +6459,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6507,7 +6507,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6555,7 +6555,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6579,7 +6579,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6603,7 +6603,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6627,7 +6627,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6651,7 +6651,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6675,7 +6675,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6699,7 +6699,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6723,7 +6723,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}
@@ -6747,7 +6747,7 @@ function Flowers2() {
                 strokeMiterlimit: 4,
                 isCustomFont: "none",
                 fontFileUrl: "none",
-                fill: "rgb(212,169,166)",
+                fill: "#FDD443",
                 fillRule: "nonzero",
                 opacity: 1,
               }}

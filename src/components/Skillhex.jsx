@@ -5,7 +5,7 @@ import button from "../styles/Skillsolo.module.css"
 function Skillhex() {
   return (
     <div className="root z-8 container mr-[150px] px-10">
-      <h2 className="text-5xl text-[#AE5770] my-[2rem]">Skills</h2>
+      <h2 className="text-5xl text-[#F57956] my-[2rem]">Skills</h2>
       <main className={styles.hexagonContainer}>
         <div
           className={`${styles.hexagon} ${styles.colorHexa} ${styles.null}`}

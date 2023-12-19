@@ -11,16 +11,12 @@ function index() {
   return (
     <>
       <div className="mb-[3rem]">
-        <div className="ml-10 z-40 h-[50%] " style={{ position: "absolute" }}>
-          <Navbar2 link="/" text="Home" />
-        </div>
-
-        <h1 className="text-[#AE5770] text-5xl text-center pt-[3rem]">
+        <h1 className="text-[#F57956] text-5xl text-center pt-[5rem]">
           Case Studies
         </h1>
       </div>
 
-      <div className="mt-[10rem] grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-y-5">
+      <div className="mt-[10rem] case-grid grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-y-5">
         {studyPages.map((page, index) => (
           <div key={index} className="card card-side bg-base-100 shadow-sm ">
             <figure
@@ -32,7 +28,7 @@ function index() {
               <p>Description here.</p>
               <div className="card-actions justify-end">
                 <Link href={`/case-studies/${page.name}`}>
-                  <button className="btn bg-[#d4a9a6] text-slate-50">
+                  <button className="btn bg-[#FBE9AE] text-slate-50">
                     Read more
                   </button>
                 </Link>

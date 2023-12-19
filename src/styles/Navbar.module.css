@@ -8,7 +8,7 @@
   width: 150px;
   height: 170px;
   position: relative;
-  background-color: #ae5770;
+  background-color: #fdd443;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   cursor: pointer;
   transition: transform 0.5s;
@@ -19,7 +19,7 @@
   width: 120px;
   height: 140px;
   position: relative;
-  background-color: #ae5770;
+  background-color: #fdd443;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   cursor: pointer;
   transition: transform 0.5s;
@@ -31,7 +31,7 @@
   margin-left: 20px;
   height: 85px;
   width: 75px;
-  background-color: #ae5770;
+  background-color: #fdd443;
   opacity: 80%;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
@@ -41,7 +41,7 @@
   flex-direction: column;
   height: 80px;
   width: 70px;
-  background-color: #ae5770;
+  background-color: #fdd443;
   opacity: 95%;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

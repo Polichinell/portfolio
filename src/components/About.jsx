@@ -3,7 +3,7 @@ import React from "react"
 function About() {
   return (
     <>
-      <h1 id="about" className="text-center pt-5 text-5xl text-[#AE5770]">
+      <h1 id="about" className="text-center pt-5 text-5xl text-[#F57956]">
         About me
       </h1>
 

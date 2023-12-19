@@ -11,7 +11,7 @@ body {
 }
 
 .footerSVG {
-  background: #f8eee8;
+  background: #fefbf2;
 }
 
 #back-to-top {
@@ -19,7 +19,7 @@ body {
   bottom: 20px;
   right: 20px;
   display: none;
-  background-color: #ae5770;
+  background-color: #fdd443;
   border: none;
   cursor: pointer;
   color: white;
@@ -30,9 +30,14 @@ body {
 
 li a {
   text-decoration: none;
-  color: #ae5770;
+  color: #fea28b;
 }
 
+@media (max-width: 499px) {
+  #about {
+    padding-top: 8rem;
+  }
+}
 @media (max-width: 600px) {
   .smallestScreen {
     padding-top: 7rem;
