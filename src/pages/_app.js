@@ -68,13 +68,13 @@ export default function App({ Component, pageProps }) {
       <div className="hidden absolute inset-0 z-5 opacity-70">
         <Blob />
       </div>
-      {smallScreen && isCaseStudiesPage && shouldHideNavbar ? (
+      {smallScreen && !isCaseStudiesPage && !shouldHideNavbar ? (
         <div className="pb-10">
           <SmallNav />
         </div>
       ) : (
         <>
-          {smallestScreen && isCaseStudiesPage && shouldHideNavbar ? (
+          {smallestScreen && !isCaseStudiesPage && !shouldHideNavbar ? (
             <>
               <div className="pb-20 flex flex-row px-5">
                 <SmallestNav />
