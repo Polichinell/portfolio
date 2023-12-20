@@ -34,7 +34,7 @@ function Footer() {
             </div>
           </div>
           <div className="opacity-60 mt-4 text-sm">
-            <p>&copy; Chinell - 2023</p>
+            <p>&copy; Louisa H. - 2023</p>
           </div>
         </div>
       </div>
