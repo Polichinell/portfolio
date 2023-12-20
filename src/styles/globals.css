@@ -70,8 +70,57 @@ li a {
   .grid {
     padding-top: 0;
   }
+
+  .grid-case {
+    width: 300px;
+  }
+
+  .case-grid {
+    width: 300px;
+    padding-left: 2.5rem;
+  }
   .hero {
     padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 602px) {
+  .grid-case {
+    max-width: 400px;
+  }
+
+  .case-grid {
+    margin-bottom: 5rem;
+    max-width: 400px;
+
+    padding-left: 5rem;
+  }
+}
+
+@media (min-width: 454px) and (max-width: 520px) {
+  .grid-case {
+    max-width: 350px;
+  }
+
+  .case-grid {
+    margin-bottom: 5rem;
+    max-width: 350px;
+
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 405px) and (max-width: 453px) {
+  .grid-case {
+    max-width: 250px;
+    margin-right: 3rem;
+  }
+
+  .case-grid {
+    margin-bottom: 5rem;
+    max-width: 300px;
+
+    margin-right: 3rem;
   }
 }
 
@@ -83,6 +132,15 @@ li a {
   .grid {
     transform: translateX(-0.4rem);
     padding-top: 0;
+  }
+
+  .grid-case {
+    max-width: 15rem;
+  }
+
+  .case-grid {
+    margin-bottom: 5rem;
+    max-width: 15rem;
   }
 
   .grid div p {
@@ -99,5 +157,35 @@ li a {
   .navBar {
     top: 5%;
     right: 22%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 363px) {
+  .grid-case {
+    max-width: 200px;
+    margin-right: 3rem;
+  }
+
+  .case-text {
+    font-size: x-large;
+  }
+  .case-grid {
+    margin-bottom: 5rem;
+    max-width: 300px;
+
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .grid-case {
+    max-width: 190px;
+  }
+  .case-text {
+    font-size: larger;
+  }
+  .case-grid {
+    margin-bottom: 5rem;
+    max-width: 190px;
   }
 }
