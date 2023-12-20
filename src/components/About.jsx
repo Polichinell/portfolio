@@ -10,7 +10,7 @@ function About() {
       <div className="flex gap-10">
         <div className="bg-white bg-opacity-70 rounded-3xl w-3/4 mx-auto mt-[4rem]">
           <p className="p-[3rem] mt-3 text-md">
-            Hello there!~ I&apos;m Chinell, a coding enthusiast with a passion
+            Hello there!~ I&apos;m Louisa, a coding enthusiast with a passion
             for pixels and a certain interest in simple yet pretty web designs.
             <br />
             <br />
