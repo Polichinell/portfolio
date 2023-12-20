@@ -4,9 +4,17 @@ import Link from "next/link"
 
 function index() {
   const studyPages = [
-    { name: "e-commerce", title: "E-commerce Website" },
-    { name: "pebble-work", title: "Pebble Work" },
-    { name: "movie-project", title: "Movie Catalogue" },
+    { name: "pebble-work", title: "Pebble Work", desc: "Capstone Project!" },
+    {
+      name: "e-commerce",
+      title: "E-commerce Website",
+      desc: "Introduction to database work",
+    },
+    {
+      name: "movie-project",
+      title: "Movie Catalogue",
+      desc: "First look at APIs",
+    },
   ]
   return (
     <>
@@ -16,25 +24,20 @@ function index() {
         </h1>
       </div>
 
-      <div className="mt-[10rem] case-grid grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-y-5">
+      <div className="mt-[10rem] case-grid grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-y-10">
         {studyPages.map((page, index) => (
-          <div key={index} className="card card-side bg-base-100 shadow-sm ">
-            <figure
-              className="lg:w-[15rem] bg-cover sm:w-[50px] md:w-[10rem]"
-              style={{ backgroundImage: 'url("../low-poly-grid-haikei.png")' }}
-            ></figure>
-            <div className="card-body min-w-[300px]">
-              <h2 className="card-title">{page.title}</h2>
-              <p>Description here.</p>
-              <div className="card-actions justify-end">
-                <Link href={`/case-studies/${page.name}`}>
-                  <button className="btn bg-[#FBE9AE] text-slate-50">
-                    Read more
-                  </button>
-                </Link>
+          <Link key={index} href={`/case-studies/${page.name}`}>
+            <div className="card w-96 bg-base-100 grid-case shadow-xl">
+              <figure>
+                <img src="/low-poly-grid-haikei.png" alt="Default" />
+              </figure>
+
+              <div className="card-body">
+                <h2 className="card-title text-[#F57956]">{page.title}</h2>
+                <p>{page.desc}</p>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </>
