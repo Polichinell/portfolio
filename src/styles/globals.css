@@ -43,6 +43,12 @@ li a {
     padding-top: 7rem;
   }
 
+  .box-info {
+    padding: auto;
+    width: fit-content;
+  }
+
+  
   .grid {
     padding-top: 0;
     transform: translateX(1.3rem);
@@ -124,7 +130,7 @@ li a {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 416px) {
   .smallestScreen {
     padding-top: 7rem;
   }
