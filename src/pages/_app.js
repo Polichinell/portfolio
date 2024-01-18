@@ -55,6 +55,11 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Polichinell | web artist♪</title>
         <meta name="description" content="Developer Portfolio" />
+      <meta name="description" content="~ My little side of the Internet ~ Junior Frontend web developer." />
+      <meta property="og:title" content="Polichinell | web artist♪" />
+      <meta property="og:description" content="Check out my portfolio and explore creative and responsive web projects, demonstrating expertise in HTML, CSS, JavaScript, Next.JS and more. Dive into a showcase of skills and passion for building engaging user experiences. ♪" />
+      <meta property="og:image" content="https://louisa-h.vercel.app/low-poly-grid-haikei.png" />
+
         <link rel="icon" href="/icons-96.png" />
       </Head>
       <button
