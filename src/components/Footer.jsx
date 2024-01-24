@@ -45,7 +45,7 @@ function Footer() {
           <p className="py-4">
             <ul>
               <li>
-                Flower illustration by{" "}
+                Flower and Loading illustrations by{" "}
                 <Link href="storyset.com/" target="_BLANK">
                   Storyset
                 </Link>

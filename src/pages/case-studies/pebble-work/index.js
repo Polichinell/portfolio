@@ -1,5 +1,6 @@
 import React from "react"
 import CaseStudy from "@/components/CaseStudy"
+import Image from "next/image"
 
 function Pebble() {
   const title = "Case Study: Capstone Project"
@@ -23,21 +24,28 @@ function Pebble() {
       <div className="min-h-[800px]">
         <div className="pt-[5rem]">
           <CaseStudy title={title} team={team} website={website}>
-            <p>
-              In tellus integer feugiat scelers. Tortor condimentum lacinia quis
-              vel eros. Leo a diam sollicitudin tempor id eu nisl nunc. Risus
-              nec feugiat in fermentum posuere urna nec tincidunt praesent.
-              Dignissim diam quis enim lobortis scelerisque fermentum dui. Arcu
-              felis bibendum ut tristique et egestas quis ipsum. Faucibus
-              pulvinar elementum integer enim neque volutpat ac tincidunt.
-              Auctor urna nunc id cursus metus aliquam eleifend mi. Fermentum
-              leo vel orci porta non pulvinar. Feugiat scelerisque varius morbi
-              enim nunc faucibus a pellentesque. Aliquet porttitor lacus luctus
-              accumsan tortor posuere. Sit amet commodo nulla facilisi nullam
-              vehicula ipsum a arcu. Ipsum a arcu cursus vitae congue mauris
-              rhoncus. Mauris a diam maecenas sed enim ut sem. Natoque penatibus
-              et magnis dis. Blandit cursus risus at ultrices mi tempus
-              imperdiet nulla.{" "}
+            <div className="flex items-center justify-center">
+              <Image
+                className="w-[fit-content]"
+                width={100}
+                height={100}
+                src="/Loading-cuate.svg"
+                alt="Work in Progress"
+              />
+            </div>
+            <p>🚧 Work in Progress 🚧</p>
+
+            <br />
+
+            <p className="mb-5">
+              Stay tuned for a full article about the project! Little magical
+              bees are busy crafting and enhancing the content to be posted
+              here. Your patience and understanding are highly appreciated.{" "}
+              <br />
+              Meanwhile, explore my existing content or the repository, and feel
+              free to reach out for any inquiry.
+              <br />
+              Thank you!
             </p>
           </CaseStudy>
         </div>

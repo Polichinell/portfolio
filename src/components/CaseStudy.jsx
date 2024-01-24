@@ -33,7 +33,7 @@ function CaseStudy({ title, website, team, children }) {
           }
         </div>
 
-        <div className="p-20">{children}</div>
+        <div className="p-10">{children}</div>
       </div>
     </div>
   )
