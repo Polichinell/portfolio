@@ -24,7 +24,7 @@ function Ecommerce() {
           <CaseStudy title={title} team={team} website={website}>
             <div className="flex items-center justify-center">
               <Image
-                className="w-[fit-content]"
+                className="w-3/4"
                 width={100}
                 height={100}
                 src="/Loading-cuate.svg"
